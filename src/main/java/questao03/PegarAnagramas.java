@@ -43,7 +43,7 @@ public class PegarAnagramas {
 			}
 		}
 
-		// segunda String
+		// segunda String 
 		for (int j = 0; j < arr2.length; j++) {
 			if (hMap2.get(arr2[j]) == null) {
 				hMap2.put(arr2[j], 1);

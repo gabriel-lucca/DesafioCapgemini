@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Questao03 {
 
 	/**
-	 * Encontrar o número de pares de substrings que são anagramas
+	 * Encontrar o número de pares de substrings que são anagramas 
 	 * 
 	 * @param args
 	 */
