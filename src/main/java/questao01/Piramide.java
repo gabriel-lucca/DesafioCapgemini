@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Piramide {
-
+ 
 	public List<String> cTamanho(int tamanho) {
 		List<String> linhas = new ArrayList<>();
 		StringBuilder sb = new StringBuilder();
