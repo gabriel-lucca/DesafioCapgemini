@@ -38,7 +38,7 @@ public class ValidarSenhaTest {
 		RuntimeException exe = Assert.assertThrows(RuntimeException.class, () -> new ValidarSenha().validar(senha));
 		assertEquals("A senha deve possuir pelo menos 1 dígito.", exe.getMessage());
 	}
-
+ 
 	@Test
 	public void espera_umaExcecao_seNaoTiverSeisCaracteres() {
 		String senha = "raim";
