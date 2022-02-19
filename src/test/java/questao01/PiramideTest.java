@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class PiramideTest {
-
+ 
 	@Test
 	public void RetornarSucessoCom6Elementos() {
 		int tamanho = 6;
