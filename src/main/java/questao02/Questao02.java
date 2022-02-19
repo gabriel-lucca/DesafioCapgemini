@@ -1,6 +1,6 @@
 package questao02;
 
-import java.util.List;
+import java.util.List; 
 import java.util.Scanner;
 
 public class Questao02 {

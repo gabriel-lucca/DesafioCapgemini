@@ -1,4 +1,4 @@
-package questao02;
+package questao02; 
 
 public class ValidarSenha {
 
