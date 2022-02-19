@@ -1,9 +1,9 @@
-package Questao03;
+package questao03;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class pegarRepetidas {
+public class PegarRepetidas {
 
 	public List<String> procurarEColetar(char[] array, List<String> elementos) {
 		for (int i = 0; i < array.length; i++) {

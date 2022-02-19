@@ -1,9 +1,9 @@
-package Questao01;
+package questao01;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class piramide {
+public class Piramide {
 
 	public List<String> cTamanho(int tamanho) {
 		List<String> linhas = new ArrayList<>();

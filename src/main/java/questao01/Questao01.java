@@ -1,9 +1,9 @@
-package Questao01;
+package questao01;
 
 import java.util.List;
 import java.util.Scanner;
 
-public class questao01 {
+public class Questao01 {
 
 	private static Scanner sc = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class questao01 {
 		int tamanho = sc.nextInt();
 		sc.close();
 
-		List<String> linhas = new piramide().cTamanho(tamanho);
+		List<String> linhas = new Piramide().cTamanho(tamanho);
 
 		linhas.forEach(System.out::println);
 

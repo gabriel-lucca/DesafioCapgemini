@@ -1,9 +1,9 @@
-package Questao03;
+package questao03;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class substrings {
+public class Substrings {
 
 	public List<String> criarDoArray(char[] chars) {
 		List<String> sub = new ArrayList<>();

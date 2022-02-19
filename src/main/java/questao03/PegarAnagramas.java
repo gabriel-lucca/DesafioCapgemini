@@ -1,4 +1,4 @@
-package Questao03;
+package questao03;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class pegarAnagramas {
+public class PegarAnagramas {
 
 	public List<String> pegarAnagramasDasSubstrings(char[] chars, List<String> substrings) {
 		List<String> encontrados = new ArrayList<>();
 
-		for (int i = 0; i < substrings.size() - 1; i++) {
+		for (int i = 0; i < substrings.size() - 1; i++) { 
 
 			for (int j = 0; j < chars.length; j++) {
 				String s = substrings.get(i);
